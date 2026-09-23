@@ -1,22 +1,22 @@
 const frinds = ["Akshay", "Amit", "priya", "Rahul", "Neha"];
 
-// console.log("origignal array", frinds);
+console.log("origignal array", frinds);
 
-// frinds.push("Rinki");
-// console.log("after adding", frinds);
+frinds.push("Rinki");
+console.log("after adding", frinds);
 
-// frinds.pop();
-// console.log("after popping", frinds);
+frinds.pop();
+console.log("after popping", frinds);
 
-// frinds.shift();
-// console.log("after shifting", frinds);
+frinds.shift();
+console.log("after shifting", frinds);
 
-// frinds.unshift("Rinki");
-// console.log("after unshifting", frinds);
+frinds.unshift("Rinki");
+console.log("after unshifting", frinds);
 
-// console.log("index of priya", frinds.indexOf("priya"));
+console.log("index of priya", frinds.indexOf("priya"));
 
-// console.log("slice", frinds.slice(0, 4));
+console.log("slice", frinds.slice(0, 4));
 
 frinds.splice(1, 1);
 console.log("after splice", frinds);
